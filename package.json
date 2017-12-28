@@ -1,0 +1,27 @@
+{
+  "name": "get-md5",
+  "version": "1.0.0",
+  "description": "get md5 of a file or string",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "md5": "./bin/index.js"
+  },
+  "author": "huangzilong",
+  "license": "MIT",
+  "dependencies": {
+    "blueimp-md5": "^2.10.0",
+    "colors": "^1.1.2",
+    "commander": "^2.12.2",
+    "md5-file": "^3.2.3",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
