@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: npm
+  email: huangzilongg@gmail.com
+  api_key:
+    secure: J28/c5D8qGGOQjkHFsBS0vRt2QyEnlwDt37U+BXkkGBBvH+6NlQzs5ltQb8vKuNFeU74SuxS7g4gjjzjBpKPBgHdA8DApKmvVaze3EQ8dQRoyw40hymDw2VAip6OZB6LIcK7rEX8e1Rbm6cv/sBjYB30a0pVrmrCKeKRO2GZkcmQADHfmCIdFnLT8dwjhawm3qXT6qCFb3XiDE9A6PGCtA7cihpJlnzlLRKOh04dp3zswqlUfg9qVCHiGSpCa0gP6DQKyKhOSTa0SvaDjEvyGokel0dy825STa1p9aWbOZvFCZUe68BveDv+IXfefjR81K9+fdIE7LV6PvlWH+6jJZ7+LeOQDA0Jx55iTgvaID6kQR6JplCJg/YLd0rvbM8FjhaACp+0sPe6GnANB186BtJgvPNmv1PjdUIIyeFAVR0sk/fT8DHx8Bd0QNMuUNpS5ovQQOijKLRmPG/lmyBsU+kW/OfDjm2onmlfBiCYGxdVsMDLjKuWI+lazjahfK9cxOkOuj2DS5myiIa3M+uj89JgYyaK9ymqRtXy8vLGXZqS9GSG9q2dHQhSXVRu16w6MeJUbgvGwRPOV2DBQWFgw1nN1baGnYvOUwR/8BRTFQFbSrt3S/Gi6gE7f1RogUlrmmxF3NE58cwQFhM+vXsCbjkBHgPm1Smn3Z46nnpIfZo=
+  on:
+    tags: true
