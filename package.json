@@ -1,6 +1,6 @@
 {
   "name": "get-md5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "get md5 of a file or string",
   "main": "index.js",
   "scripts": {
